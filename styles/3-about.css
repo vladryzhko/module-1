@@ -1,0 +1,53 @@
+.about{
+    margin-bottom: 152px; 
+}
+.about_text{
+    width: 1048px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    line-height: 61px;
+}
+.btn{
+    display: inline-block;
+    height: 67px;
+    padding: 20px 40px;
+    line-height: 27px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;  
+    font-size: 20px;
+    color: white;
+    background: #ad1818;
+    
+}
+
+@media (max-width: 1199px) {
+    .about{
+        margin-bottom: 120px; 
+    }
+    .about_text{
+        width: 690px;
+        font-size: 35px;
+        line-height: 48px;   
+    }
+}
+
+@media (max-width: 803px) {
+    .about{
+        width: 100%;
+        margin-bottom: 80px; 
+    }
+    .about_text{
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;   
+    }
+    .btn{
+        width: 194px;
+        height: 51px;
+        padding: 0;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}

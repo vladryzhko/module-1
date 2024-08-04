@@ -1,0 +1,146 @@
+.info{
+    margin-bottom: 150px;
+}
+
+.info__conteiner{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.info_contacts{
+    margin-bottom: 74px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.info__box{
+    display: flex;
+    justify-content: space-between;
+    gap: 104px;
+    position: relative
+}
+
+.info__mail-box:before,
+.info__number-box:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -40px;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.info__number-box:before{
+    background-image: url(../resources/phone.png);
+}
+
+.info__mail-box:before{
+    background-image: url(../resources/mail.png);
+}
+
+.info__number{
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.info__mail{
+    font-size: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #121212;
+    opacity: 0.5;
+}
+
+.info__mail:hover,
+.info__number:hover{
+    border-bottom: 1px solid red;
+    color: red;
+    opacity: 0.900;
+}
+
+
+@media (max-width: 1199px){
+    .info{
+        margin-bottom: 80px;
+    }
+    
+    .info__conteiner{
+        width: 778px;
+    }
+
+    .info__box{
+        column-gap: 100px;
+    }
+
+    .info__number{
+        font-size: 45px;
+    }
+
+    .info__mail{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 799px) {
+    .info__conteiner{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 17px;
+    }
+
+    .info_contacts{
+        margin-bottom: 58px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .info__box{
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 58px;
+    }
+
+    .info__number-box:before{
+        width: 18px;
+        height: 18px;
+    }
+
+    .info__number{
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .info__mail-box:before{
+        top: 80px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .info__mail{
+        font-size: 35px;
+        line-height: 45px;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 320px) {
+    .info__number{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .info__mail-box:before{
+        top: 55px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .info__mail{
+        font-size: 25px;
+        line-height: 35px;
+    }
+}

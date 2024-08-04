@@ -1,0 +1,31 @@
+.box_header{
+    min-width: 1400px;
+    margin-top: 32px;
+}
+.logo-link{
+    display: inline-block;
+    margin-right: 556px;
+}
+.logo{
+    display: block; 
+    width: 126.89px;
+    height: 21.42px;
+}
+.nav{
+    display: inline-block;
+}
+.nav__link{
+    margin-left: 58px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #121212;
+}
+.nav__link:nth-child(1){
+    margin-left: 0;
+}
+.nav__link:hover{
+    opacity: 0.5;
+    border-bottom: 1px solid #000;
+    margin-bottom: 2px;
+}
